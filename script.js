@@ -97,7 +97,7 @@ function setQuestions(){
 function checkQuizAvailable(){
     const theTheme = event.target.textContent;
     if(theTheme == 'IPS'){
-        notAvailable();
+        window.location.href = ('https://forms.gle/znbCkSQXmeSQNHkZA');
         //window.location.href = ('https://forms.gle/cfJt6QcsRX158KV37')
     }
     else if(theTheme == 'IPA'){
