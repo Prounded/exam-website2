@@ -131,7 +131,7 @@ function checkQuizAvailable(){
         notAvailable();
     }
     else{
-        console.error("ERROR!")
+        notAvailable();
     }
     
 }
