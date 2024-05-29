@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soal Akhir Tahun</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="title" id="title"></div>
+    <link rel="icon" type="image/jpeg" href="Logo_Exam.png">
+
+    <div class="allContainer">
+        <div class="titleDate" id="titleDate">Waktu Pergantian Soal:</div>
+        <div class="dayDisplay">
+            <div class="date" id="dateId"></div>
+            <div class="hours" id="hoursId">12:00:00 WIB</div>
+        </div>
+        <div class="titleAvail">Mata Pelajaran Yang Diujikan</div>
+        <div class="buttonQuestDisplay">
+            <button class="button" id="buttons1Id" onclick="checkQuizAvailable()">
+                <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+                  <path
+                    clip-rule="evenodd"
+                    d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+                    fill-rule="evenodd"
+                  ></path>
+                </svg>
+              </button>
+        </div>
+
+            <button class="button" id="buttons2Id" onclick="checkQuizAvailable()">
+                <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+                  <path
+                    clip-rule="evenodd"
+                    d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+                    fill-rule="evenodd"
+                  ></path>
+                </svg>
+              </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
