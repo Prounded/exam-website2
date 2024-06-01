@@ -104,7 +104,7 @@ function checkQuizAvailable(){
         notAvailable();
     }
     else if(theTheme == 'Prakarya'){
-        notAvailable();
+        window.location.href = ('https://forms.gle/ikdb7ZCBedqtecXZ7');
     }
     else if(theTheme == 'Bahasa Indonesia'){
         notAvailable();
