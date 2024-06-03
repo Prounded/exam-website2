@@ -110,7 +110,7 @@ function checkQuizAvailable(){
         notAvailable();
     }
     else if(theTheme == 'PPKN'){
-        notAvailable();
+        window.location.href = ('https://forms.gle/2viYhpmtcUA8xnHr6');
     }
     else if(theTheme == 'Bahasa Inggris'){
         notAvailable();
