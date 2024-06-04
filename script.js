@@ -113,7 +113,7 @@ function checkQuizAvailable(){
         window.location.href = ('https://forms.gle/2viYhpmtcUA8xnHr6');
     }
     else if(theTheme == 'Bahasa Inggris'){
-        notAvailable();
+        window.location.href = ('https://forms.gle/pAvxzr6p4fGD9sdc6');
     }
     else if(theTheme == 'PJOK'){
         notAvailable();
