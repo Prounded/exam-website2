@@ -116,7 +116,7 @@ function checkQuizAvailable(){
         window.location.href = ('https://forms.gle/pAvxzr6p4fGD9sdc6');
     }
     else if(theTheme == 'PJOK'){
-        notAvailable();
+        window.location.href = ('https://forms.gle/KzDTGy88nRsgNi6a6');
     }
     else if(theTheme == 'Matematika'){
         notAvailable();
