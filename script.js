@@ -122,7 +122,7 @@ function checkQuizAvailable(){
         notAvailable();
     }
     else if(theTheme == 'Agama Katolik'){
-        notAvailable();
+        window.location.href = ('https://forms.gle/Q2KLfvhcYiCNHKFm7');
     }
     else if(theTheme == 'Informatika'){
         notAvailable();
