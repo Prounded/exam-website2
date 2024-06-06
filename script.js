@@ -98,7 +98,6 @@ function checkQuizAvailable(){
     const theTheme = event.target.textContent;
     if(theTheme == 'IPS'){
         window.location.href = ('https://forms.gle/znbCkSQXmeSQNHkZA');
-        //window.location.href = ('https://forms.gle/cfJt6QcsRX158KV37')
     }
     else if(theTheme == 'IPA'){
         notAvailable();
@@ -125,7 +124,7 @@ function checkQuizAvailable(){
         window.location.href = ('https://forms.gle/Q2KLfvhcYiCNHKFm7');
     }
     else if(theTheme == 'Informatika'){
-        notAvailable();
+        window.location.href = ('https://forms.gle/tZ1yp2zJJKd7zSLUA');
     }
     else if(theTheme == 'Kemarsudirinian'){
         notAvailable();
