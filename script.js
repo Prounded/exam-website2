@@ -127,7 +127,7 @@ function checkQuizAvailable(){
         window.location.href = ('https://forms.gle/tZ1yp2zJJKd7zSLUA');
     }
     else if(theTheme == 'Kemarsudirinian'){
-        notAvailable();
+        window.location.href = ('https://forms.gle/7ip5wRk6T29XErTUA');
     }
     else{
         console.error("ERROR!")
